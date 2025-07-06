@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+.DS_Store
+env/
+libs/image_matching_models
+
+# Ignore big depth files
+data/C3VD/**/undistorted/depth/*.tiff
+
+# Ignore meshes
+data/C3VD/**/coverage_mesh.obj
+
